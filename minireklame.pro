@@ -1,4 +1,4 @@
-update=Fri 17 Mar 2017 08:29:26 PM CET
+update=Wed 26 Apr 2017 23:26:57 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName31=tlc5955
 LibName32=sp3483
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
