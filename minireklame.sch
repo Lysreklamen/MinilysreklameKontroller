@@ -325,22 +325,6 @@ F 3 "" H 3750 1350 50  0000 C CNN
 	1    3750 1350
 	1    0    0    -1  
 $EndComp
-Text Label 5350 3250 0    60   ~ 0
-SDATA
-Text Label 5350 3350 0    60   ~ 0
-SCLK
-Entry Wire Line
-	5250 3150 5350 3250
-Entry Wire Line
-	5250 3250 5350 3350
-Entry Wire Line
-	2600 3050 2700 3150
-Entry Wire Line
-	2600 3150 2700 3250
-Text Label 2700 3150 0    60   ~ 0
-SDATA
-Text Label 2700 3250 0    60   ~ 0
-SCLK
 $Comp
 L C C2
 U 1 1 58DC0793
@@ -463,24 +447,6 @@ Wire Wire Line
 	5500 2500 5600 2500
 Wire Wire Line
 	5500 2075 5500 2500
-Wire Wire Line
-	5600 3250 5350 3250
-Wire Wire Line
-	5600 3350 5350 3350
-Wire Bus Line
-	5250 850  5250 3150
-Wire Bus Line
-	5250 3150 5250 3250
-Wire Bus Line
-	5250 850  2600 850 
-Wire Bus Line
-	2600 850  2600 3050
-Wire Bus Line
-	2600 3050 2600 3150
-Wire Wire Line
-	2700 3150 2950 3150
-Wire Wire Line
-	2950 3250 2700 3250
 Wire Wire Line
 	2500 3900 2700 3900
 Wire Wire Line
@@ -1088,8 +1054,6 @@ Text Notes 750  2950 0    60   ~ 12
 PDI
 Text Notes 850  3950 0    60   ~ 12
 DMX
-Text Notes 4350 4900 0    60   ~ 12
-TODO: connect GSCLK & LAT
 $Comp
 L AVR-PUDI-6 CON?
 U 1 1 5919E95A
@@ -1359,4 +1323,36 @@ Wire Wire Line
 Wire Wire Line
 	2550 4125 2550 3800
 Connection ~ 2550 3800
+Wire Wire Line
+	4750 4200 5175 4200
+Wire Wire Line
+	5175 4200 5175 3450
+Wire Wire Line
+	5175 3450 5600 3450
+Wire Wire Line
+	4750 4100 5075 4100
+Wire Wire Line
+	5075 4100 5075 3250
+Wire Wire Line
+	5075 3250 5600 3250
+Wire Wire Line
+	4750 4300 5125 4300
+Wire Wire Line
+	5125 4300 5125 3350
+Wire Wire Line
+	5125 3350 5600 3350
+Wire Wire Line
+	4750 4000 5275 4000
+Wire Wire Line
+	5275 4000 5275 3750
+Wire Wire Line
+	5275 3750 5600 3750
+Wire Wire Line
+	4750 3900 5225 3900
+Wire Wire Line
+	5225 3900 5225 3650
+Wire Wire Line
+	5225 3650 5600 3650
+Text Notes 5400 3925 0    60   ~ 0
+check if !SS can connect to LAT
 $EndSCHEMATC
