@@ -428,7 +428,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 4600 3700 4800
 Wire Wire Line
-	4000 4600 4000 4875
+	4000 4600 4000 4700
+Wire Wire Line
+	4000 4700 4000 4750
+Wire Wire Line
+	4000 4750 4000 4800
+Wire Wire Line
+	4000 4800 4000 4875
 Wire Wire Line
 	3900 4600 3900 4700
 Wire Wire Line
@@ -436,13 +442,23 @@ Wire Wire Line
 Wire Wire Line
 	5500 2800 5600 2800
 Wire Wire Line
-	5500 2600 5500 2900
+	5500 2600 5500 2700
+Wire Wire Line
+	5500 2700 5500 2800
+Wire Wire Line
+	5500 2800 5500 2900
 Wire Wire Line
 	5600 2700 5500 2700
 Connection ~ 5500 2800
 Connection ~ 5500 2700
 Wire Wire Line
-	3750 1350 3750 2000
+	3750 1350 3750 1725
+Wire Wire Line
+	3750 1725 3750 1800
+Wire Wire Line
+	3750 1800 3750 1875
+Wire Wire Line
+	3750 1875 3750 2000
 Wire Wire Line
 	5500 2500 5600 2500
 Wire Wire Line
@@ -452,11 +468,15 @@ Wire Wire Line
 Wire Wire Line
 	5600 3350 5350 3350
 Wire Bus Line
-	5250 850  5250 3250
+	5250 850  5250 3150
+Wire Bus Line
+	5250 3150 5250 3250
 Wire Bus Line
 	5250 850  2600 850 
 Wire Bus Line
-	2600 850  2600 3150
+	2600 850  2600 3050
+Wire Bus Line
+	2600 3050 2600 3150
 Wire Wire Line
 	2700 3150 2950 3150
 Wire Wire Line
@@ -468,16 +488,20 @@ Wire Wire Line
 Wire Wire Line
 	2700 4100 2950 4100
 Wire Wire Line
-	2500 3800 2750 3800
+	2500 3800 2550 3800
+Wire Wire Line
+	2550 3800 2625 3800
+Wire Wire Line
+	2625 3800 2750 3800
 Wire Wire Line
 	2750 3800 2750 4200
 Wire Wire Line
 	2750 4200 2950 4200
 Wire Wire Line
-	2500 3700 2600 3700
+	2500 3700 2625 3700
 Wire Wire Line
-	2600 3700 2600 3800
-Connection ~ 2600 3800
+	2625 3700 2625 3800
+Connection ~ 2625 3800
 Wire Wire Line
 	2500 3600 2800 3600
 Wire Wire Line
@@ -489,9 +513,31 @@ Wire Wire Line
 Wire Wire Line
 	6250 1150 6250 1400
 Wire Wire Line
-	6250 1400 8900 1400
+	6250 1400 6750 1400
 Wire Wire Line
-	8900 5600 8900 1150
+	6750 1400 7250 1400
+Wire Wire Line
+	7250 1400 7750 1400
+Wire Wire Line
+	7750 1400 8250 1400
+Wire Wire Line
+	8250 1400 8900 1400
+Wire Wire Line
+	8900 5600 8900 5050
+Wire Wire Line
+	8900 5050 8900 4550
+Wire Wire Line
+	8900 4550 8900 4050
+Wire Wire Line
+	8900 4050 8900 3550
+Wire Wire Line
+	8900 3550 8900 3050
+Wire Wire Line
+	8900 3050 8900 2550
+Wire Wire Line
+	8900 2550 8900 1400
+Wire Wire Line
+	8900 1400 8900 1150
 Wire Wire Line
 	6750 1150 6750 1400
 Connection ~ 6750 1400
@@ -525,7 +571,15 @@ Connection ~ 8900 4550
 Wire Wire Line
 	6250 5800 6250 5600
 Wire Wire Line
-	6250 5600 8900 5600
+	6250 5600 6750 5600
+Wire Wire Line
+	6750 5600 7250 5600
+Wire Wire Line
+	7250 5600 7750 5600
+Wire Wire Line
+	7750 5600 8250 5600
+Wire Wire Line
+	8250 5600 8900 5600
 Connection ~ 8900 5050
 Wire Wire Line
 	6750 5800 6750 5600
@@ -585,7 +639,9 @@ F 3 "" H 2400 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5600 1350 5600
+	1100 5600 1275 5600
+Wire Wire Line
+	1275 5600 1350 5600
 $Comp
 L GND #PWR012
 U 1 1 58DC1F33
@@ -924,10 +980,10 @@ $EndComp
 Text Notes 9100 1250 0    60   ~ 12
 TODO: Determine VLED (not necessarily +5V)
 $Comp
-L R R1
+L R R2
 U 1 1 58DDA6F7
 P 3150 1250
-F 0 "R1" V 3230 1250 50  0000 C CNN
+F 0 "R2" V 3230 1250 50  0000 C CNN
 F 1 "10k" V 3150 1250 50  0000 C CNN
 F 2 "" V 3080 1250 50  0001 C CNN
 F 3 "" H 3150 1250 50  0001 C CNN
@@ -970,7 +1026,9 @@ $EndComp
 Wire Wire Line
 	2850 1450 3150 1450
 Wire Wire Line
-	3150 1400 3150 1500
+	3150 1400 3150 1450
+Wire Wire Line
+	3150 1450 3150 1500
 Connection ~ 3150 1450
 $Comp
 L VDD #PWR?
@@ -1021,7 +1079,9 @@ $EndComp
 Wire Wire Line
 	1050 1550 1300 1550
 Wire Wire Line
-	2850 1450 2850 2450
+	2850 1450 2850 2300
+Wire Wire Line
+	2850 2300 2850 2450
 Text Notes 850  1750 0    60   ~ 12
 PWR
 Text Notes 750  2950 0    60   ~ 12
@@ -1094,7 +1154,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 5900 1750 6075
 Wire Wire Line
-	2150 5600 2400 5600
+	2150 5600 2275 5600
+Wire Wire Line
+	2275 5600 2400 5600
 Wire Wire Line
 	2275 5750 2275 5600
 Connection ~ 2275 5600
@@ -1270,4 +1332,31 @@ Text Notes 3100 7350 0    60   ~ 0
 close to TLC5955
 Wire Wire Line
 	5600 2600 5500 2600
+$Comp
+L R R1
+U 1 1 591A7EA8
+P 2550 4275
+F 0 "R1" V 2630 4275 50  0000 C CNN
+F 1 "10k" V 2550 4275 50  0000 C CNN
+F 2 "" V 2480 4275 50  0001 C CNN
+F 3 "" H 2550 4275 50  0001 C CNN
+	1    2550 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591A821A
+P 2550 4475
+F 0 "#PWR?" H 2550 4225 50  0001 C CNN
+F 1 "GND" H 2550 4325 50  0000 C CNN
+F 2 "" H 2550 4475 50  0000 C CNN
+F 3 "" H 2550 4475 50  0000 C CNN
+	1    2550 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4475 2550 4425
+Wire Wire Line
+	2550 4125 2550 3800
+Connection ~ 2550 3800
 $EndSCHEMATC
