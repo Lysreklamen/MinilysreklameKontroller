@@ -1,0 +1,17 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C16,C17,C18,C19";"CP_Elec_6.3x7.7";4;"CP";;;
+2;"P11,P12,P2,P15,P4,P14,P1,P3,P5,P6,P7,P8,P9,P10,P13,P16";"JST_PH_B4B-PH-K_04x2.00mm_Straight";16;"CONN_01X04";;;
+3;"IC1";"TQFP-44_10x10mm_Pitch0.8mm";1;"ATXMEGA64A4U-A";;;
+4;"C1,C2,C3,C4,C5,C6,C7";"C_0805_HandSoldering";7;"100n";;;
+5;"C8,C9,C12,C13,C14,C15";"C_0805_HandSoldering";6;"C";;;
+6;"C10,C11";"C_0805_HandSoldering";2;"22u";;;
+7;"D1,D2,D3,D4,D5,D6,D7,D8";"LED_0805";8;"LED";;;
+8;"P17";"TerminalBlock_Pheonix_PT-3.5mm_2pol";1;"Screw_Terminal_1x02";;;
+9;"P18";"IDC_Header_Straight_6pins";1;"AVR-PUDI-6";;;
+10;"Q1";"Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering";1;"Crystal_GND24";;;
+11;"R1,R2";"R_0805_HandSoldering";2;"10k";;;
+12;"R3,R4,R5,R6,R7,R8,R9,R10";"R_0805_HandSoldering";8;"R";;;
+13;"U1";"SOT-223";1;"TLV1117-33CDCYR";;;
+14;"U2";"SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"SP3483-EN-L";;;
+15;"U3";"QFP_56_8x8mm_0.5mm_pitch";1;"TLC5955";;;
+16;"P19,P20";"JST_PH_B2B-PH-K_02x2.00mm_Straight";2;"CONN_01X02";;;
