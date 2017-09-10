@@ -1,0 +1,2 @@
+- update sp3483 change in schematic
+- update board layout if necessary
