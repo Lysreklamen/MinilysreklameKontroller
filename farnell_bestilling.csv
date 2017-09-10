@@ -1,0 +1,19 @@
+﻿Linje,Varenummer,RoHS-kompatibel?,Merknader,Ant.,Produsentens delenummer,Produsentens navn,Produsent / beskrivelse,Tilgjengelighet,Enhetspris,Artikkelpris,Rabattert pris
+1,1759265,YES,,200.0,"MC0805B104K500CT",MULTICOMP,"Ceramic Capacitor Case:0805 [2012 Metric]; Capacitance:0.1µF; Voltage Rating:50V; Capacitance Tolerance:± 10%; Dielectric Characteristic:X7R; Product Range:MC Series; Packaging:Cut Tape;",410893,0.1180,23.60,,
+2,1759189,YES,,100.0,"MC0805N9R0D500CT",MULTICOMP,"Ceramic Capacitor Case:0805 [2012 Metric]; Capacitance:9pF; Voltage Rating:50V; Capacitance Tolerance:± 0.5pF; Dielectric Characteristic:C0G / NP0; Product Range:MC Series; Packaging:C",3312,0.2140,21.40,,
+3,1759415,YES,,50.0,"MC0805X226M6R3CT",MULTICOMP,"Ceramic Capacitor Case:0805 [2012 Metric]; Capacitance:22µF; Voltage Rating:6.3V; Capacitance Tolerance:± 20%; Dielectric Characteri; Available until stocks are exhausted Alternative available",55773,0.7910,39.55,,
+4,2471850,YES,,12.0,"X1E0000210117  TSX-3225 16MHZ 9PF",EPSON,"Frequency Nom:16MHz; Crystal Case:SMD, 3.2mm x 2.5mm; Frequency Stability + / -:10ppm; Load Capacitance:9pF; Frequency Tolerance + / -:10ppm; Product Range:TSX-3225 Series; Operating Tem",2797,5.2000,62.40,,
+5,2073612,Y-EX,,100.0,"MCMR08X103 JTL",MULTICOMP,"Resistance:10kohm; Voltage Rating:150V; Resistor Case Style:0805 [2012 Metric]; Power Rating:125mW; Resistance Tolerance:± 5%; Product Range:MCMR Series; Packaging:Cut Tape; Resistor",47687,0.0752,7.52,,
+6,2447707,Y-EX,,200.0,"MCWR08X68R0FTL",MULTICOMP,"Resistance:68ohm; Voltage Rating:150V; Resistor Case Style:0805 [2012 Metric]; Power Rating:125mW; Resistance Tolerance:± 1%; Product Range:MCWR Series; Packaging:Cut Tape; Resistor El",11500,0.0413,8.26,,
+7,1581242,YES,,100.0,"MCL-S270GC",MULTICOMP,"LED Colour:Green; LED Mounting:SMD; Bulb Size:1.25mm x 1.4mm; Forward Current If:20mA; Forward Voltage:2.1V; Wavelength Typ:570nm; Luminous Intensity:10mcd; Viewing Angle:140°; Lens Shape:",72499,1.2100,121.00,,
+8,2492346,YES,,12.0,"TLC5955DCA",TEXAS INSTRUMENTS,"Device Topology:Linear; No. of Outputs:48Outputs; Output Current:31.9mA; Output Voltage:10V; Driver Case Style:HTSSOP; No. of Pins:56Pins; Input Voltage Min:3V; Input Voltage Max:5.5",56,46.7300,560.76,,
+9,2527545,YES,,15.0,"CTBP3051/2",CAMDENBOSS,"Pitch Spacing:3.5mm; No. of Positions:2Ways; Wire Size AWG Min:24AWG; Wire Size AWG Max:18AWG; Conductor Area CSA:1mm²; Wire Connection Method:Screw; Rated Current:10A; Rated Voltage:30",6262,3.9200,58.80,,
+10,1022231,YES,,20.0,"M20-9980346",HARWIN,"Product Range:M20 Series; Contact Termination Type:Through Hole; Gender:Header; No. of Contacts:6; Pitch Spacing:2.54mm; Contact Plating:Tin Plated Contacts; Contact Material:Phospho",9933,1.1800,23.60,,
+11,9491856,YES,,30.0,"B2B-PH-K-S(LF)(SN)",JST (JAPAN SOLDERLESS TERMINALS),"Pitch Spacing:2mm; No. of Contacts:2Contacts; Gender:Header; Product Range:PH Series; Contact Termination Type:Through Hole; No. of Rows:1Rows; Contact Plating:Tin Plated Contacts; Contact Ma",310865,0.8540,25.62,,
+12,1274164,YES,,12.0,"ADM3493ARZ",ANALOG DEVICES,"Device Type:RS422 / RS485 Transceiver; IC Interface Type:RS422, RS485; No. of Drivers:1Drivers; Supply Voltage Min:3V; Supply Voltage Max:3.6V; Driver Case Style:SOIC; No. of Pins:8Pin",433,22.2400,266.88,,
+
+,,,,,,,Sub total,1219.39
+,,,,,,,Varer totalt,1219.39
+,,,,,,,Enkel levering,0.00
+,,,,,,,Mva.,Ukjent
+,,,,,,,Totalt,1219.39
