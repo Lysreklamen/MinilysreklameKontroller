@@ -8,6 +8,7 @@
 #include "com.h"
 #include "pwm.h"
 
+
 #define UART_TX_BUFFER_SIZE	512
 ring_t uart_tx_ring;
 uint8_t uart_tx_buffer[UART_TX_BUFFER_SIZE];

@@ -65,7 +65,7 @@
 # Name of target controller 
 # (e.g. 'at90s8515', see the available avr-gcc mmcu 
 # options for possible values)
-MCU=atxmega64a3
+MCU=atxmega64a4u
 
 # Name of our project
 # (use a single word, e.g. 'myproject')
@@ -78,7 +78,11 @@ SIMULATION=NO
 # (list all files to compile, e.g. 'a.c b.cpp as.S'):
 # Use .cc, .cpp or .C suffix for C++ files, use .S 
 # (NOT .s !!!) for assembly source code files.
-PRJSRC=main.c pwm.c com.c dmx.c
+PRJSRC=main.c 
+#PRJSRC+=pwm.c
+#PRJSRC+=com.c 
+PRJSRC+=dmx.c
+PRJSRC+=tlc5955.c
 PRJSRC+=xmega_usart.c
 PRJSRC+=xmega_clock.c
 PRJSRC+=ring.c
@@ -137,6 +141,7 @@ ifeq ($(SIMULATION),NO)
 endif
 
 CFLAGS=-I. $(INC) -g $(MMCU) -O$(OPTLEVEL) 	\
+	-std=c11                                    \
 	-fpack-struct -fshort-enums             \
 	-funsigned-bitfields -funsigned-char    \
 	-Wall -Wstrict-prototypes               \

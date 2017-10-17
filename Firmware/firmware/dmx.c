@@ -10,7 +10,7 @@
 #include "main.h"
 #include "led.h"
 
-#include "cardconf/card7seg.h"
+#include "cardconf/card01.h"
 
 #define DMX_BREAK_TIME 150 //us
 
@@ -88,7 +88,7 @@ void applyFrame(uint8_t frame[], uint16_t offset)
 {
 	//Apply the new DMX- frame:
 	#define FRAME(channel) (frame[(offset+(channel))] * frame[(offset+(channel))])
-	for (uint8_t i = 0; i < max_leds;i++){
+	for (uint8_t i = 0; i < MAX_LEDS; i++){
         LED_SET(i,FRAME(i), FRAME(i+1), FRAME(i+2));
     }
     LEDS_UPDATE();

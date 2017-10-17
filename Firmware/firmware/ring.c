@@ -3,7 +3,7 @@
 
 uint8_t ring_full(ring_t *ring);
 
-inline void ring_init(ring_t *ring, uint8_t *data, uint16_t size)
+void ring_init(ring_t *ring, uint8_t *data, uint16_t size)
 {
 	ring->data = data;
 	ring->in = 0;
@@ -50,7 +50,7 @@ uint16_t ring_free(ring_t *ring)
 	return retval;
 }
 
-inline void ring_clear(ring_t *ring)
+void ring_clear(ring_t *ring)
 {
 	ring->in = 0;
 	ring->out = 0;

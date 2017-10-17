@@ -8,10 +8,12 @@
 #include <xmega_clock.h>
 #include <xmega_timer.h>
 
-#include "pwm.h"
-#include "com.h"
+//#include "pwm.h"
+//#include "com.h"
 #include "dmx.h"
+
 #include "tlc5955.h"
+#include "led.h"
 
 void dmx_handle(uint32_t dt);
 
@@ -23,13 +25,13 @@ int main(void)
 	
 	/* Setup PWM: */
 //	pwm_init();
-    ltc5955_init();
+    tlc5955_init();
 
 	/* Setup communication: */
-	com_init();
+//	com_init();
 	dmx_init();
 
-	com_write("RESTART\n");
+//	com_write("RESTART\n");
 
 
 	/* Enable interrupts: */
@@ -37,13 +39,16 @@ int main(void)
 	PMIC.CTRL |= PMIC_MEDLVLEX_bm;
 	sei();
 	
-	LED0_SET(255, 0, 0);
-	LED1_SET(255, 0, 0);
-	LED2_SET(255, 0, 0);
-	LED3_SET(255, 0, 0);
-	LED4_SET(255, 0, 0);
-	LED5_SET(255, 0, 0);
-	
+	//LED0_SET(255, 0, 0);
+	//LED1_SET(255, 0, 0);
+	//LED2_SET(255, 0, 0);
+	//LED3_SET(255, 0, 0);
+	//LED4_SET(255, 0, 0);
+	//LED5_SET(255, 0, 0);
+	for (uint8_t i = 0; i<MAX_LEDS; i++){
+        LED_SET(i,255*255UL,0,0);
+    }
+
 	while (1) {
         dmx_handle(0);
         tlc5955_handle();
