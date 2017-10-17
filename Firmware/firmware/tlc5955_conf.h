@@ -1,0 +1,17 @@
+
+
+
+#define TLC5955_MCR 0
+#define TLC5955_MCG 0
+#define TLC5955_MCB 0
+
+#define TLC5955_BCR 0
+#define TLC5955_BCG 0
+#define TLC5955_BCB 0
+
+
+#define TLC5955_DSPRPT 1
+#define TLC5955_TMGRST 0
+#define TLC5955_RFRESH 1
+#define TLC5955_ESPWM  0
+#define TLC5955_LSDVLT 0

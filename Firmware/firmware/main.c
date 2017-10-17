@@ -11,6 +11,7 @@
 #include "pwm.h"
 #include "com.h"
 #include "dmx.h"
+#include "tlc5955.h"
 
 void dmx_handle(uint32_t dt);
 
@@ -22,6 +23,7 @@ int main(void)
 	
 	/* Setup PWM: */
 //	pwm_init();
+    ltc5955_init();
 
 	/* Setup communication: */
 	com_init();
@@ -42,7 +44,10 @@ int main(void)
 	LED4_SET(255, 0, 0);
 	LED5_SET(255, 0, 0);
 	
-	while (1) dmx_handle(0);
+	while (1) {
+        dmx_handle(0);
+        tlc5955_handle();
+    }
 
 	return 0;
 }
