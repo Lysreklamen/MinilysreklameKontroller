@@ -10,9 +10,9 @@
 #include "main.h"
 #include "led.h"
 
-#include "cardconf/card01.h"
+#include "cardconf/card06.h"
 
-#define DMX_BREAK_TIME 150 //us
+#define DMX_BREAK_TIME 100 //us | denne var 150 men dongelen til ;ystein var ganske n'r og jeg ville fjerne feilkilder
 
 volatile uint16_t dmx_frame_counter;
 volatile uint16_t dmx_byte_counter;
@@ -61,6 +61,7 @@ void dmx_handle(uint32_t dt)
 
 	//No data received?
 	if (dmx_byte_counter < (1+dmx_start_address + DMX_CHANNELS)) return;
+//	if (dmx_byte_counter < 2) return;
 
 	//Break?
 	if (TCD1.CNT*2 >= DMX_BREAK_TIME) {
@@ -89,7 +90,7 @@ void applyFrame(uint8_t frame[], uint16_t offset)
 	//Apply the new DMX- frame:
 	#define FRAME(channel) (frame[(offset+(channel))] * frame[(offset+(channel))])
 	for (uint8_t i = 0; i < MAX_LEDS; i++){
-        LED_SET(i,FRAME(i), FRAME(i+1), FRAME(i+2));
+        LED_SET(i,FRAME(i*3), FRAME(i*3+1), FRAME(i*3+2));
     }
     LEDS_UPDATE();
 }

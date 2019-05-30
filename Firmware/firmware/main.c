@@ -15,6 +15,8 @@
 #include "tlc5955.h"
 #include "led.h"
 
+
+
 void dmx_handle(uint32_t dt);
 
 int main(void)
@@ -24,7 +26,6 @@ int main(void)
 	xmega_clock_select_32mhz();
 	
 	/* Setup PWM: */
-//	pwm_init();
     tlc5955_init();
 
 	/* Setup communication: */
@@ -39,16 +40,26 @@ int main(void)
 	PMIC.CTRL |= PMIC_MEDLVLEX_bm;
 	sei();
 	
-	//LED0_SET(255, 0, 0);
-	//LED1_SET(255, 0, 0);
-	//LED2_SET(255, 0, 0);
-	//LED3_SET(255, 0, 0);
-	//LED4_SET(255, 0, 0);
-	//LED5_SET(255, 0, 0);
-	for (uint8_t i = 0; i<MAX_LEDS; i++){
-        LED_SET(i,255*255UL,0,0);
-    }
+    LED_SET( 0,255*255, 0, 0);
+	LED_SET( 1,255*255, 0, 0);
+	LED_SET( 2,255*255, 0, 0);
+	LED_SET( 3,255*255, 0, 0);
+	LED_SET( 4,255*255, 0, 0);
+	LED_SET( 5,255*255, 0, 0);
+	LED_SET( 6,255*255, 0, 0);
+	LED_SET( 7,255*255, 0, 0);
+	LED_SET( 8,255*255, 0, 0);
+	LED_SET( 9,255*255, 0, 0);
+	LED_SET(10,255*255, 0, 0);
+	LED_SET(11,255*255, 0, 0);
+	LED_SET(12,255*255, 0, 0);
+	LED_SET(13,255*255, 0, 0);
+	LED_SET(14,255*255, 0, 0);
+	LED_SET(15,255*255, 0, 0);
 
+    tlc5955_start();
+    extern uint8_t spi_state;
+    uint8_t cycle = 0;
 	while (1) {
         dmx_handle(0);
         tlc5955_handle();

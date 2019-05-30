@@ -1,13 +1,13 @@
 
 
 
-#define TLC5955_MCR 0
-#define TLC5955_MCG 0
-#define TLC5955_MCB 0
+#define TLC5955_MCR 2
+#define TLC5955_MCG 2
+#define TLC5955_MCB 2
 
-#define TLC5955_BCR 0
-#define TLC5955_BCG 0
-#define TLC5955_BCB 0
+#define TLC5955_BCR 0x3f
+#define TLC5955_BCG 0x3f
+#define TLC5955_BCB 0x3f
 
 
 #define TLC5955_DSPRPT 1

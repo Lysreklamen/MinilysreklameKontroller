@@ -1,3 +1,21 @@
 #include "cardconf/modules.h"
-#define DMX_START_ADDRESS 18
-#define DMX_DEFAULT_FRAME {M6R,M6G,M6B,  M6R,M6G,M6B,  M7R,M7G,M7B,  M7R,M7G,M7B,  M7R,M7G,M7B,  M7R,M7G,M7B}
+
+#define DMX_START_ADDRESS 48
+#define DMX_DEFAULT_FRAME {\
+    M1R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B, \
+    M2R,M2G,M2B,} 
+
