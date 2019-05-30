@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name minireklame-rescue)(type Legacy)(uri ${KIPRJMOD}/minireklame-rescue.lib)(options "")(descr ""))
+  (lib (name tlc5955)(type Legacy)(uri ${KIPRJMOD}/tlc5955.lib)(options "")(descr ""))
+  (lib (name sp3483)(type Legacy)(uri ${KIPRJMOD}/sp3483.lib)(options "")(descr ""))
+)
