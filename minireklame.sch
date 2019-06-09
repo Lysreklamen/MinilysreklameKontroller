@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:minireklame-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -128,27 +128,15 @@ F 3 "" H 9400 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L minireklame-rescue:GND-power #PWR01
 U 1 1 58CAFE40
-P 1800 4350
-F 0 "#PWR01" H 1800 4100 50  0001 C CNN
-F 1 "GND" H 1800 4200 50  0000 C CNN
-F 2 "" H 1800 4350 50  0000 C CNN
-F 3 "" H 1800 4350 50  0000 C CNN
-	1    1800 4350
+P 1700 4350
+F 0 "#PWR01" H 1700 4100 50  0001 C CNN
+F 1 "GND" H 1700 4200 50  0000 C CNN
+F 2 "" H 1700 4350 50  0000 C CNN
+F 3 "" H 1700 4350 50  0000 C CNN
+	1    1700 4350
 	1    0    0    -1  
-$EndComp
-$Comp
-L sp3483:SP3483-EN-L U2
-U 1 1 58CB0289
-P 1800 3950
-F 0 "U2" H 1400 4250 50  0000 L CNN
-F 1 "SP3483-EN-L" H 1900 4250 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1800 3450 50  0001 C CIN
-F 3 "" H 1800 3950 50  0000 C CNN
-F 4 "SP3483EN-L" H 1800 3950 60  0001 C CNN "manf#"
-	1    1800 3950
-	-1   0    0    -1  
 $EndComp
 $Comp
 L minireklame-rescue:CONN_01X04 P10
@@ -241,27 +229,27 @@ $EndComp
 $Comp
 L minireklame-rescue:CONN_01X02 P19
 U 1 1 58CB0C3E
-P 825 3950
-F 0 "P19" H 825 4100 50  0000 C CNN
-F 1 "CONN_01X02" V 925 3950 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 825 3950 50  0001 C CNN
-F 3 "" H 825 3950 50  0000 C CNN
-	1    825  3950
+P 725 3950
+F 0 "P19" H 725 4100 50  0000 C CNN
+F 1 "CONN_01X02" V 825 3950 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 725 3950 50  0001 C CNN
+F 3 "" H 725 3950 50  0000 C CNN
+	1    725  3950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR02
+L minireklame-rescue:+3.3V-power #PWR02
 U 1 1 58CC36D0
-P 1800 3550
-F 0 "#PWR02" H 1800 3400 50  0001 C CNN
-F 1 "+3.3V" H 1800 3690 50  0000 C CNN
-F 2 "" H 1800 3550 50  0000 C CNN
-F 3 "" H 1800 3550 50  0000 C CNN
-	1    1800 3550
+P 1700 3550
+F 0 "#PWR02" H 1700 3400 50  0001 C CNN
+F 1 "+3.3V" H 1700 3690 50  0000 C CNN
+F 2 "" H 1700 3550 50  0000 C CNN
+F 3 "" H 1700 3550 50  0000 C CNN
+	1    1700 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L minireklame-rescue:GND-power #PWR03
 U 1 1 58CC39B7
 P 4000 4875
 F 0 "#PWR03" H 4000 4625 50  0001 C CNN
@@ -272,7 +260,7 @@ F 3 "" H 4000 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L minireklame-rescue:GND-power #PWR04
 U 1 1 58CC3B11
 P 5500 2900
 F 0 "#PWR04" H 5500 2650 50  0001 C CNN
@@ -283,7 +271,7 @@ F 3 "" H 5500 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR05
+L minireklame-rescue:+3.3V-power #PWR05
 U 1 1 58CC3C50
 P 3750 1350
 F 0 "#PWR05" H 3750 1200 50  0001 C CNN
@@ -294,7 +282,7 @@ F 3 "" H 3750 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L minireklame-rescue:C-Device C2
 U 1 1 58DC0793
 P 3300 5900
 F 0 "C2" H 3325 6000 50  0000 L CNN
@@ -305,7 +293,7 @@ F 3 "" H 3300 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L minireklame-rescue:C-Device C3
 U 1 1 58DC0833
 P 3650 5900
 F 0 "C3" H 3675 6000 50  0000 L CNN
@@ -316,7 +304,7 @@ F 3 "" H 3650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L minireklame-rescue:C-Device C4
 U 1 1 58DC0889
 P 4000 5900
 F 0 "C4" H 4025 6000 50  0000 L CNN
@@ -327,7 +315,7 @@ F 3 "" H 4000 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L minireklame-rescue:C-Device C5
 U 1 1 58DC0901
 P 4325 5900
 F 0 "C5" H 4350 6000 50  0000 L CNN
@@ -338,7 +326,7 @@ F 3 "" H 4325 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L minireklame-rescue:GND-power #PWR06
 U 1 1 58DC0F08
 P 3300 6075
 F 0 "#PWR06" H 3300 5825 50  0001 C CNN
@@ -349,7 +337,7 @@ F 3 "" H 3300 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L minireklame-rescue:C-Device C1
 U 1 1 58DC11BD
 P 2775 5900
 F 0 "C1" H 2800 6000 50  0000 L CNN
@@ -361,7 +349,7 @@ F 4 "MC0603B104K500CT" H 2775 5900 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L minireklame-rescue:GND-power #PWR07
 U 1 1 58DC128A
 P 2775 6075
 F 0 "#PWR07" H 2775 5825 50  0001 C CNN
@@ -372,11 +360,11 @@ F 3 "" H 2775 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1025 3900 1200 3900
+	925  3900 1100 3900
 Wire Wire Line
-	1025 4000 1275 4000
+	925  4000 1175 4000
 Wire Wire Line
-	1800 3550 1800 3600
+	1700 3550 1700 3600
 Wire Wire Line
 	3700 4600 3700 4800
 Wire Wire Line
@@ -399,25 +387,6 @@ Wire Wire Line
 	5500 2500 5600 2500
 Wire Wire Line
 	5500 2075 5500 2500
-Wire Wire Line
-	2300 4100 2950 4100
-Wire Wire Line
-	2300 4000 2325 4000
-Wire Wire Line
-	2475 4000 2475 4200
-Wire Wire Line
-	2475 4200 2950 4200
-Wire Wire Line
-	2300 3900 2400 3900
-Wire Wire Line
-	2400 3900 2400 4000
-Connection ~ 2400 4000
-Wire Wire Line
-	2300 3800 2550 3800
-Wire Wire Line
-	2550 3800 2550 4300
-Wire Wire Line
-	2550 4300 2950 4300
 Wire Wire Line
 	6250 1150 6250 1400
 Wire Wire Line
@@ -472,7 +441,7 @@ Wire Wire Line
 	8250 5800 8250 5600
 Connection ~ 8250 5600
 $Comp
-L Device:C C6
+L minireklame-rescue:C-Device C6
 U 1 1 58DC13EB
 P 4875 5900
 F 0 "C6" H 4900 6000 50  0000 L CNN
@@ -483,7 +452,7 @@ F 3 "" H 4875 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L minireklame-rescue:C-Device C10
 U 1 1 58DC191A
 P 1275 5900
 F 0 "C10" H 1300 6000 50  0000 L CNN
@@ -495,7 +464,7 @@ F 4 "T491A226K010AT" H 1275 5900 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L minireklame-rescue:C-Device C11
 U 1 1 58DC19FA
 P 2275 5900
 F 0 "C11" H 2300 6000 50  0000 L CNN
@@ -506,7 +475,7 @@ F 3 "" H 2275 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR08
+L minireklame-rescue:+3.3V-power #PWR08
 U 1 1 58DC1D7F
 P 2400 5600
 F 0 "#PWR08" H 2400 5450 50  0001 C CNN
@@ -519,7 +488,7 @@ $EndComp
 Wire Wire Line
 	1100 5600 1275 5600
 $Comp
-L power:GND #PWR09
+L minireklame-rescue:GND-power #PWR09
 U 1 1 58DC1F33
 P 2275 6075
 F 0 "#PWR09" H 2275 5825 50  0001 C CNN
@@ -530,7 +499,7 @@ F 3 "" H 2275 6075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L minireklame-rescue:GND-power #PWR010
 U 1 1 58DC1F92
 P 1275 6075
 F 0 "#PWR010" H 1275 5825 50  0001 C CNN
@@ -554,7 +523,7 @@ F 4 "TLV1117-33CDCYR" H 1750 5650 60  0001 C CNN "manf#"
 $EndComp
 Connection ~ 1275 5600
 $Comp
-L power:GND #PWR011
+L minireklame-rescue:GND-power #PWR011
 U 1 1 58DC2CB1
 P 1750 6075
 F 0 "#PWR011" H 1750 5825 50  0001 C CNN
@@ -695,7 +664,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5350 8150 5800
 $Comp
-L power:+5V #PWR012
+L minireklame-rescue:+5V-power #PWR012
 U 1 1 58DD94F1
 P 8900 1150
 F 0 "#PWR012" H 8900 1000 50  0001 C CNN
@@ -706,7 +675,7 @@ F 3 "" H 8900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L minireklame-rescue:R-Device R2
 U 1 1 58DDA6F7
 P 3150 1250
 F 0 "R2" V 3230 1250 50  0000 C CNN
@@ -717,7 +686,7 @@ F 3 "" H 3150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L minireklame-rescue:C-Device C7
 U 1 1 58DDA7A4
 P 3150 1650
 F 0 "C7" H 3175 1750 50  0000 L CNN
@@ -728,7 +697,7 @@ F 3 "" H 3150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L minireklame-rescue:GND-power #PWR013
 U 1 1 58DDA951
 P 3150 1800
 F 0 "#PWR013" H 3150 1550 50  0001 C CNN
@@ -739,7 +708,7 @@ F 3 "" H 3150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR014
+L minireklame-rescue:+3.3V-power #PWR014
 U 1 1 58DDAE07
 P 3150 1100
 F 0 "#PWR014" H 3150 950 50  0001 C CNN
@@ -755,27 +724,12 @@ Wire Wire Line
 	3150 1400 3150 1450
 Connection ~ 3150 1450
 Wire Wire Line
-	1300 1125 1050 1125
-$Comp
-L power:GND #PWR015
-U 1 1 58DE3ABF
-P 1300 1400
-F 0 "#PWR015" H 1300 1150 50  0001 C CNN
-F 1 "GND" H 1300 1250 50  0000 C CNN
-F 2 "" H 1300 1400 50  0001 C CNN
-F 3 "" H 1300 1400 50  0001 C CNN
-	1    1300 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 1325 1300 1325
-Wire Wire Line
 	2850 1450 2850 2300
-Text Notes 900  1550 0    60   ~ 12
+Text Notes 925  1175 0    60   ~ 12
 PWR
 Text Notes 750  2950 0    60   ~ 12
 PDI
-Text Notes 750  4225 0    60   ~ 12
+Text Notes 650  4225 0    60   ~ 12
 DMX I/O
 $Comp
 L minireklame-rescue:AVR-PUDI-6 P18
@@ -804,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	850  2450 850  2675
 $Comp
-L power:GND #PWR016
+L minireklame-rescue:GND-power #PWR016
 U 1 1 5919FF5A
 P 850 2675
 F 0 "#PWR016" H 850 2425 50  0001 C CNN
@@ -815,7 +769,7 @@ F 3 "" H 850 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR017
+L minireklame-rescue:+3.3V-power #PWR017
 U 1 1 591A008E
 P 850 2050
 F 0 "#PWR017" H 850 1900 50  0001 C CNN
@@ -863,7 +817,7 @@ Wire Wire Line
 	4150 1725 3750 1725
 Connection ~ 3750 1725
 $Comp
-L power:GND #PWR018
+L minireklame-rescue:GND-power #PWR018
 U 1 1 591A357C
 P 3650 6075
 F 0 "#PWR018" H 3650 5825 50  0001 C CNN
@@ -874,7 +828,7 @@ F 3 "" H 3650 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L minireklame-rescue:GND-power #PWR019
 U 1 1 591A36B0
 P 4000 6075
 F 0 "#PWR019" H 4000 5825 50  0001 C CNN
@@ -885,7 +839,7 @@ F 3 "" H 4000 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L minireklame-rescue:GND-power #PWR020
 U 1 1 591A371E
 P 4325 6075
 F 0 "#PWR020" H 4325 5825 50  0001 C CNN
@@ -896,7 +850,7 @@ F 3 "" H 4325 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR021
+L minireklame-rescue:+3.3V-power #PWR021
 U 1 1 591A37AD
 P 3300 5600
 F 0 "#PWR021" H 3300 5450 50  0001 C CNN
@@ -907,7 +861,7 @@ F 3 "" H 3300 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR022
+L minireklame-rescue:+3.3V-power #PWR022
 U 1 1 591A381B
 P 3650 5600
 F 0 "#PWR022" H 3650 5450 50  0001 C CNN
@@ -918,7 +872,7 @@ F 3 "" H 3650 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR023
+L minireklame-rescue:+3.3V-power #PWR023
 U 1 1 591A3889
 P 4000 5600
 F 0 "#PWR023" H 4000 5450 50  0001 C CNN
@@ -929,7 +883,7 @@ F 3 "" H 4000 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR024
+L minireklame-rescue:+3.3V-power #PWR024
 U 1 1 591A38F7
 P 4325 5600
 F 0 "#PWR024" H 4325 5450 50  0001 C CNN
@@ -958,7 +912,7 @@ Wire Wire Line
 Text Notes 3425 6425 0    60   ~ 0
 close to ATXMEGA
 $Comp
-L power:+3.3V #PWR025
+L minireklame-rescue:+3.3V-power #PWR025
 U 1 1 591A4E44
 P 2775 5600
 F 0 "#PWR025" H 2775 5450 50  0001 C CNN
@@ -975,9 +929,9 @@ Wire Wire Line
 Text Notes 2425 6425 0    60   ~ 0
 close to SP3483
 Wire Wire Line
-	1800 4350 1800 4300
+	1700 4350 1700 4300
 $Comp
-L power:+3.3V #PWR026
+L minireklame-rescue:+3.3V-power #PWR026
 U 1 1 591A6008
 P 5500 2075
 F 0 "#PWR026" H 5500 1925 50  0001 C CNN
@@ -988,7 +942,7 @@ F 3 "" H 5500 2075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L minireklame-rescue:GND-power #PWR027
 U 1 1 591A63D6
 P 4875 6075
 F 0 "#PWR027" H 4875 5825 50  0001 C CNN
@@ -999,7 +953,7 @@ F 3 "" H 4875 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR028
+L minireklame-rescue:+3.3V-power #PWR028
 U 1 1 591A651E
 P 4875 5600
 F 0 "#PWR028" H 4875 5450 50  0001 C CNN
@@ -1017,33 +971,6 @@ Text Notes 4525 6425 0    60   ~ 0
 close to TLC5955
 Wire Wire Line
 	5600 2600 5500 2600
-$Comp
-L Device:R R1
-U 1 1 591A7EA8
-P 2325 4450
-F 0 "R1" V 2405 4450 50  0000 C CNN
-F 1 "10k" V 2325 4450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2255 4450 50  0001 C CNN
-F 3 "" H 2325 4450 50  0001 C CNN
-	1    2325 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 591A821A
-P 2325 4675
-F 0 "#PWR029" H 2325 4425 50  0001 C CNN
-F 1 "GND" H 2325 4525 50  0000 C CNN
-F 2 "" H 2325 4675 50  0000 C CNN
-F 3 "" H 2325 4675 50  0000 C CNN
-	1    2325 4675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2325 4675 2325 4600
-Wire Wire Line
-	2325 4300 2325 4000
-Connection ~ 2325 4000
 Wire Wire Line
 	4750 4200 5175 4200
 Wire Wire Line
@@ -1077,7 +1004,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2775 2200 2775
 $Comp
-L Device:C C8
+L minireklame-rescue:C-Device C8
 U 1 1 591AA01D
 P 1550 2975
 F 0 "C8" H 1575 3075 50  0000 L CNN
@@ -1088,7 +1015,7 @@ F 3 "" H 1550 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L minireklame-rescue:C-Device C9
 U 1 1 591AA0D4
 P 2200 2975
 F 0 "C9" H 2225 3075 50  0000 L CNN
@@ -1099,7 +1026,7 @@ F 3 "" H 2200 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L minireklame-rescue:GND-power #PWR030
 U 1 1 591AA144
 P 2200 3175
 F 0 "#PWR030" H 2200 2925 50  0001 C CNN
@@ -1110,7 +1037,7 @@ F 3 "" H 2200 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L minireklame-rescue:GND-power #PWR031
 U 1 1 591AA32F
 P 1550 3175
 F 0 "#PWR031" H 1550 2925 50  0001 C CNN
@@ -1133,43 +1060,28 @@ optional XTAL
 $Comp
 L minireklame-rescue:CONN_01X02 P20
 U 1 1 591AAFD2
-P 825 4475
-F 0 "P20" H 825 4625 50  0000 C CNN
-F 1 "CONN_01X02" V 925 4475 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 825 4475 50  0001 C CNN
-F 3 "" H 825 4475 50  0000 C CNN
-	1    825  4475
+P 725 4475
+F 0 "P20" H 725 4625 50  0000 C CNN
+F 1 "CONN_01X02" V 825 4475 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 725 4475 50  0001 C CNN
+F 3 "" H 725 4475 50  0000 C CNN
+	1    725  4475
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1025 4525 1275 4525
+	925  4525 1175 4525
 Wire Wire Line
-	1275 4525 1275 4000
-Connection ~ 1275 4000
+	1175 4525 1175 4000
+Connection ~ 1175 4000
 Wire Wire Line
-	1025 4425 1200 4425
+	925  4425 1100 4425
 Wire Wire Line
-	1200 4425 1200 3900
-Connection ~ 1200 3900
-Text Notes 575  4800 0    60   ~ 0
+	1100 4425 1100 3900
+Connection ~ 1100 3900
+Text Notes 475  4800 0    60   ~ 0
 junction close to SP3483
 $Comp
-L minireklame-rescue:Screw_Terminal_1x02 P17
-U 1 1 591AB737
-P 850 1225
-F 0 "P17" H 850 1475 50  0000 C TNN
-F 1 "Screw_Terminal_1x02" V 700 1225 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 850 1000 50  0001 C CNN
-F 3 "" H 825 1225 50  0001 C CNN
-	1    850  1225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1050 1300 1125
-Wire Wire Line
-	1300 1325 1300 1400
-$Comp
-L Device:C C13
+L minireklame-rescue:C-Device C13
 U 1 1 591AF775
 P 1675 7000
 F 0 "C13" H 1700 7100 50  0000 L CNN
@@ -1180,7 +1092,7 @@ F 3 "" H 1675 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C17
+L minireklame-rescue:CP-Device C17
 U 1 1 591AF7F4
 P 1425 7000
 F 0 "C17" H 1450 7100 50  0000 L CNN
@@ -1191,7 +1103,7 @@ F 3 "" H 1425 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR032
+L minireklame-rescue:+5V-power #PWR032
 U 1 1 591AF9CB
 P 1550 6750
 F 0 "#PWR032" H 1550 6600 50  0001 C CNN
@@ -1209,7 +1121,7 @@ Connection ~ 1550 6850
 Wire Wire Line
 	1425 7150 1550 7150
 $Comp
-L power:GND #PWR033
+L minireklame-rescue:GND-power #PWR033
 U 1 1 591AFE5C
 P 1550 7225
 F 0 "#PWR033" H 1550 6975 50  0001 C CNN
@@ -1223,7 +1135,7 @@ Wire Wire Line
 	1550 7150 1550 7225
 Connection ~ 1550 7150
 $Comp
-L Device:C C14
+L minireklame-rescue:C-Device C14
 U 1 1 591B0525
 P 2225 7000
 F 0 "C14" H 2250 7100 50  0000 L CNN
@@ -1234,7 +1146,7 @@ F 3 "" H 2225 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C18
+L minireklame-rescue:CP-Device C18
 U 1 1 591B052B
 P 1975 7000
 F 0 "C18" H 2000 7100 50  0000 L CNN
@@ -1245,7 +1157,7 @@ F 3 "" H 1975 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR034
+L minireklame-rescue:+5V-power #PWR034
 U 1 1 591B0531
 P 2100 6750
 F 0 "#PWR034" H 2100 6600 50  0001 C CNN
@@ -1263,7 +1175,7 @@ Connection ~ 2100 6850
 Wire Wire Line
 	1975 7150 2100 7150
 $Comp
-L power:GND #PWR035
+L minireklame-rescue:GND-power #PWR035
 U 1 1 591B053B
 P 2100 7225
 F 0 "#PWR035" H 2100 6975 50  0001 C CNN
@@ -1277,7 +1189,7 @@ Wire Wire Line
 	2100 7150 2100 7225
 Connection ~ 2100 7150
 $Comp
-L Device:C C12
+L minireklame-rescue:C-Device C12
 U 1 1 591B0663
 P 1125 7000
 F 0 "C12" H 1150 7100 50  0000 L CNN
@@ -1288,7 +1200,7 @@ F 3 "" H 1125 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C16
+L minireklame-rescue:CP-Device C16
 U 1 1 591B0669
 P 875 7000
 F 0 "C16" H 900 7100 50  0000 L CNN
@@ -1299,7 +1211,7 @@ F 3 "" H 875 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR036
+L minireklame-rescue:+5V-power #PWR036
 U 1 1 591B066F
 P 1000 6750
 F 0 "#PWR036" H 1000 6600 50  0001 C CNN
@@ -1317,7 +1229,7 @@ Connection ~ 1000 6850
 Wire Wire Line
 	875  7150 1000 7150
 $Comp
-L power:GND #PWR037
+L minireklame-rescue:GND-power #PWR037
 U 1 1 591B0679
 P 1000 7225
 F 0 "#PWR037" H 1000 6975 50  0001 C CNN
@@ -1331,7 +1243,7 @@ Wire Wire Line
 	1000 7150 1000 7225
 Connection ~ 1000 7150
 $Comp
-L Device:C C15
+L minireklame-rescue:C-Device C15
 U 1 1 591B07D1
 P 2775 7000
 F 0 "C15" H 2800 7100 50  0000 L CNN
@@ -1342,7 +1254,7 @@ F 3 "" H 2775 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C19
+L minireklame-rescue:CP-Device C19
 U 1 1 591B07D7
 P 2525 7000
 F 0 "C19" H 2550 7100 50  0000 L CNN
@@ -1353,7 +1265,7 @@ F 3 "" H 2525 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR038
+L minireklame-rescue:+5V-power #PWR038
 U 1 1 591B07DD
 P 2650 6750
 F 0 "#PWR038" H 2650 6600 50  0001 C CNN
@@ -1371,7 +1283,7 @@ Connection ~ 2650 6850
 Wire Wire Line
 	2525 7150 2650 7150
 $Comp
-L power:GND #PWR039
+L minireklame-rescue:GND-power #PWR039
 U 1 1 591B07E7
 P 2650 7225
 F 0 "#PWR039" H 2650 6975 50  0001 C CNN
@@ -1425,7 +1337,7 @@ Entry Wire Line
 Wire Wire Line
 	5275 7375 4950 7375
 $Comp
-L Device:R R3
+L minireklame-rescue:R-Device R3
 U 1 1 591B5744
 P 4950 7200
 F 0 "R3" V 5030 7200 50  0000 C CNN
@@ -1438,7 +1350,7 @@ $EndComp
 Wire Wire Line
 	4950 7375 4950 7350
 $Comp
-L Device:LED D1
+L minireklame-rescue:LED-Device D1
 U 1 1 591B5AC0
 P 4950 6875
 F 0 "D1" H 4950 6975 50  0000 C CNN
@@ -1451,7 +1363,7 @@ $EndComp
 Wire Wire Line
 	4950 7050 4950 7025
 $Comp
-L power:+3.3V #PWR040
+L minireklame-rescue:+3.3V-power #PWR040
 U 1 1 591B6636
 P 4950 6700
 F 0 "#PWR040" H 4950 6550 50  0001 C CNN
@@ -1466,7 +1378,7 @@ Wire Wire Line
 Wire Wire Line
 	5275 7500 4675 7500
 $Comp
-L Device:R R4
+L minireklame-rescue:R-Device R4
 U 1 1 591B6B86
 P 4675 7325
 F 0 "R4" V 4755 7325 50  0000 C CNN
@@ -1479,7 +1391,7 @@ $EndComp
 Wire Wire Line
 	4675 7500 4675 7475
 $Comp
-L Device:LED D2
+L minireklame-rescue:LED-Device D2
 U 1 1 591B6B8D
 P 4675 7000
 F 0 "D2" H 4675 7100 50  0000 C CNN
@@ -1492,7 +1404,7 @@ $EndComp
 Wire Wire Line
 	4675 7175 4675 7150
 $Comp
-L power:+3.3V #PWR041
+L minireklame-rescue:+3.3V-power #PWR041
 U 1 1 591B6B94
 P 4675 6825
 F 0 "#PWR041" H 4675 6675 50  0001 C CNN
@@ -1507,7 +1419,7 @@ Wire Wire Line
 Wire Wire Line
 	5275 7625 4400 7625
 $Comp
-L Device:R R5
+L minireklame-rescue:R-Device R5
 U 1 1 591B6E98
 P 4400 7450
 F 0 "R5" V 4480 7450 50  0000 C CNN
@@ -1520,7 +1432,7 @@ $EndComp
 Wire Wire Line
 	4400 7625 4400 7600
 $Comp
-L Device:LED D3
+L minireklame-rescue:LED-Device D3
 U 1 1 591B6E9F
 P 4400 7125
 F 0 "D3" H 4400 7225 50  0000 C CNN
@@ -1533,7 +1445,7 @@ $EndComp
 Wire Wire Line
 	4400 7300 4400 7275
 $Comp
-L power:+3.3V #PWR042
+L minireklame-rescue:+3.3V-power #PWR042
 U 1 1 591B6EA6
 P 4400 6950
 F 0 "#PWR042" H 4400 6800 50  0001 C CNN
@@ -1548,7 +1460,7 @@ Wire Wire Line
 Wire Wire Line
 	5275 7750 4125 7750
 $Comp
-L Device:R R6
+L minireklame-rescue:R-Device R6
 U 1 1 591B6EAE
 P 4125 7575
 F 0 "R6" V 4205 7575 50  0000 C CNN
@@ -1561,7 +1473,7 @@ $EndComp
 Wire Wire Line
 	4125 7750 4125 7725
 $Comp
-L Device:LED D4
+L minireklame-rescue:LED-Device D4
 U 1 1 591B6EB5
 P 4125 7250
 F 0 "D4" H 4125 7350 50  0000 C CNN
@@ -1574,7 +1486,7 @@ $EndComp
 Wire Wire Line
 	4125 7425 4125 7400
 $Comp
-L power:+3.3V #PWR043
+L minireklame-rescue:+3.3V-power #PWR043
 U 1 1 591B6EBC
 P 4125 7075
 F 0 "#PWR043" H 4125 6925 50  0001 C CNN
@@ -1765,7 +1677,7 @@ Entry Wire Line
 Wire Wire Line
 	5475 7300 5800 7300
 $Comp
-L Device:R R7
+L minireklame-rescue:R-Device R7
 U 1 1 59375237
 P 5800 7125
 F 0 "R7" V 5880 7125 50  0000 C CNN
@@ -1778,7 +1690,7 @@ $EndComp
 Wire Wire Line
 	5800 7300 5800 7275
 $Comp
-L Device:LED D5
+L minireklame-rescue:LED-Device D5
 U 1 1 5937523E
 P 5800 6800
 F 0 "D5" H 5800 6900 50  0000 C CNN
@@ -1791,7 +1703,7 @@ $EndComp
 Wire Wire Line
 	5800 6975 5800 6950
 $Comp
-L power:+3.3V #PWR044
+L minireklame-rescue:+3.3V-power #PWR044
 U 1 1 59375245
 P 5800 6625
 F 0 "#PWR044" H 5800 6475 50  0001 C CNN
@@ -1806,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 7425 6075 7425
 $Comp
-L Device:R R8
+L minireklame-rescue:R-Device R8
 U 1 1 5937524D
 P 6075 7250
 F 0 "R8" V 6155 7250 50  0000 C CNN
@@ -1819,7 +1731,7 @@ $EndComp
 Wire Wire Line
 	6075 7425 6075 7400
 $Comp
-L Device:LED D6
+L minireklame-rescue:LED-Device D6
 U 1 1 59375254
 P 6075 6925
 F 0 "D6" H 6075 7025 50  0000 C CNN
@@ -1832,7 +1744,7 @@ $EndComp
 Wire Wire Line
 	6075 7100 6075 7075
 $Comp
-L power:+3.3V #PWR045
+L minireklame-rescue:+3.3V-power #PWR045
 U 1 1 5937525B
 P 6075 6750
 F 0 "#PWR045" H 6075 6600 50  0001 C CNN
@@ -1847,7 +1759,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 7550 6350 7550
 $Comp
-L Device:R R9
+L minireklame-rescue:R-Device R9
 U 1 1 59375263
 P 6350 7375
 F 0 "R9" V 6430 7375 50  0000 C CNN
@@ -1860,7 +1772,7 @@ $EndComp
 Wire Wire Line
 	6350 7550 6350 7525
 $Comp
-L Device:LED D7
+L minireklame-rescue:LED-Device D7
 U 1 1 5937526A
 P 6350 7050
 F 0 "D7" H 6350 7150 50  0000 C CNN
@@ -1873,7 +1785,7 @@ $EndComp
 Wire Wire Line
 	6350 7225 6350 7200
 $Comp
-L power:+3.3V #PWR046
+L minireklame-rescue:+3.3V-power #PWR046
 U 1 1 59375271
 P 6350 6875
 F 0 "#PWR046" H 6350 6725 50  0001 C CNN
@@ -1888,7 +1800,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 7675 6625 7675
 $Comp
-L Device:R R10
+L minireklame-rescue:R-Device R10
 U 1 1 59375279
 P 6625 7500
 F 0 "R10" V 6705 7500 50  0000 C CNN
@@ -1901,7 +1813,7 @@ $EndComp
 Wire Wire Line
 	6625 7675 6625 7650
 $Comp
-L Device:LED D8
+L minireklame-rescue:LED-Device D8
 U 1 1 59375280
 P 6625 7175
 F 0 "D8" H 6625 7275 50  0000 C CNN
@@ -1914,7 +1826,7 @@ $EndComp
 Wire Wire Line
 	6625 7350 6625 7325
 $Comp
-L power:+3.3V #PWR047
+L minireklame-rescue:+3.3V-power #PWR047
 U 1 1 59375287
 P 6625 7000
 F 0 "#PWR047" H 6625 6850 50  0001 C CNN
@@ -1941,18 +1853,7 @@ LED7
 Text Label 5500 7675 0    39   ~ 0
 LED8
 $Comp
-L power:+5V #PWR048
-U 1 1 593777B2
-P 1300 1050
-F 0 "#PWR048" H 1300 900 50  0001 C CNN
-F 1 "+5V" H 1300 1190 50  0000 C CNN
-F 2 "" H 1300 1050 50  0001 C CNN
-F 3 "" H 1300 1050 50  0001 C CNN
-	1    1300 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR049
+L minireklame-rescue:+5V-power #PWR049
 U 1 1 59377AEE
 P 1100 5600
 F 0 "#PWR049" H 1100 5450 50  0001 C CNN
@@ -1963,7 +1864,7 @@ F 3 "" H 1100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24 Q1
+L minireklame-rescue:Crystal_GND24-Device Q1
 U 1 1 595BE7A2
 P 1900 2775
 F 0 "Q1" H 2025 2975 50  0000 L CNN
@@ -1974,7 +1875,7 @@ F 3 "" H 1900 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L minireklame-rescue:GND-power #PWR050
 U 1 1 595BEECB
 P 1675 2550
 F 0 "#PWR050" H 1675 2300 50  0001 C CNN
@@ -1989,7 +1890,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2550 1900 2575
 $Comp
-L power:GND #PWR051
+L minireklame-rescue:GND-power #PWR051
 U 1 1 595BF163
 P 1900 3175
 F 0 "#PWR051" H 1900 2925 50  0001 C CNN
@@ -2015,8 +1916,6 @@ Wire Wire Line
 	5500 2800 5500 2900
 Wire Wire Line
 	5500 2700 5500 2800
-Wire Wire Line
-	2400 4000 2475 4000
 Wire Wire Line
 	6750 1400 7250 1400
 Wire Wire Line
@@ -2068,15 +1967,13 @@ Wire Wire Line
 Wire Wire Line
 	3750 1725 3750 1800
 Wire Wire Line
-	2325 4000 2400 4000
-Wire Wire Line
 	2200 2775 2375 2775
 Wire Wire Line
 	1550 2775 1550 2825
 Wire Wire Line
-	1275 4000 1300 4000
+	1175 4000 1200 4000
 Wire Wire Line
-	1200 3900 1300 3900
+	1100 3900 1200 3900
 Wire Wire Line
 	1550 6850 1675 6850
 Wire Wire Line
@@ -2093,8 +1990,168 @@ Wire Wire Line
 	2650 6850 2775 6850
 Wire Wire Line
 	2650 7150 2775 7150
-Wire Bus Line
-	2650 3250 2650 5200
+$Comp
+L sp3483:SP3483-EN-L U2
+U 1 1 58CB0289
+P 1700 3950
+F 0 "U2" H 1300 4250 50  0000 L CNN
+F 1 "SP3483-EN-L" H 1800 4250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1700 3450 50  0001 C CIN
+F 3 "" H 1700 3950 50  0000 C CNN
+F 4 "SP3483EN-L" H 1700 3950 60  0001 C CNN "manf#"
+	1    1700 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4300 2950 4300
+Wire Wire Line
+	2625 3800 2625 4200
+Wire Wire Line
+	2625 4200 2950 4200
+Wire Wire Line
+	2400 4000 2400 4100
+Wire Wire Line
+	2400 4100 2950 4100
+$Comp
+L minireklame-rescue:R-Device R1
+U 1 1 591A7EA8
+P 2300 4525
+F 0 "R1" V 2380 4525 50  0000 C CNN
+F 1 "10k" V 2300 4525 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2230 4525 50  0001 C CNN
+F 3 "" H 2300 4525 50  0001 C CNN
+	1    2300 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4750 2300 4675
+$Comp
+L minireklame-rescue:GND-power #PWR029
+U 1 1 591A821A
+P 2300 4750
+F 0 "#PWR029" H 2300 4500 50  0001 C CNN
+F 1 "GND" H 2300 4600 50  0000 C CNN
+F 2 "" H 2300 4750 50  0000 C CNN
+F 3 "" H 2300 4750 50  0000 C CNN
+	1    2300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L minireklame-rescue:GND-power #PWR0101
+U 1 1 5D0D3A0C
+P 2500 4750
+F 0 "#PWR0101" H 2500 4500 50  0001 C CNN
+F 1 "GND" H 2500 4600 50  0000 C CNN
+F 2 "" H 2500 4750 50  0000 C CNN
+F 3 "" H 2500 4750 50  0000 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4750 2500 4675
+$Comp
+L minireklame-rescue:R-Device R12
+U 1 1 5D0D3A13
+P 2500 4525
+F 0 "R12" V 2580 4525 50  0000 C CNN
+F 1 "10k" V 2500 4525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4525 50  0001 C CNN
+F 3 "" H 2500 4525 50  0001 C CNN
+	1    2500 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L minireklame-rescue:R-Device R11
+U 1 1 5D0F6399
+P 2500 3550
+F 0 "R11" V 2580 3550 50  0000 C CNN
+F 1 "10k" V 2500 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 3550 50  0001 C CNN
+F 3 "" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4100 2350 4300
+Wire Wire Line
+	2200 4100 2350 4100
+Wire Wire Line
+	2200 4000 2300 4000
+Wire Wire Line
+	2200 3800 2500 3800
+Wire Wire Line
+	2300 4375 2300 4000
+Connection ~ 2300 4000
+Wire Wire Line
+	2300 4000 2400 4000
+Wire Wire Line
+	2500 4375 2500 4000
+Wire Wire Line
+	2500 4000 2500 3900
+Wire Wire Line
+	2500 3900 2200 3900
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 3700 2500 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 2625 3800
+$Comp
+L minireklame-rescue:Phoenix_508_2pos P17
+U 1 1 5D37E1F2
+P 1000 1150
+F 0 "P17" H 1719 1203 60  0000 L CNN
+F 1 "Phoenix_508_2pos" H 1719 1097 60  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" V 450 1150 60  0001 C CNN
+F 3 "" V 450 1150 60  0001 C CNN
+	1    1000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 950  1800 950 
+Wire Wire Line
+	1500 1350 1800 1350
+Wire Wire Line
+	1800 1350 1800 1500
+$Comp
+L minireklame-rescue:+5V-power #PWR?
+U 1 1 5D43C8D2
+P 1800 825
+F 0 "#PWR?" H 1800 675 50  0001 C CNN
+F 1 "+5V" H 1800 965 50  0000 C CNN
+F 2 "" H 1800 825 50  0001 C CNN
+F 3 "" H 1800 825 50  0001 C CNN
+	1    1800 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L minireklame-rescue:GND-power #PWR?
+U 1 1 5D4D3667
+P 1800 1500
+F 0 "#PWR?" H 1800 1250 50  0001 C CNN
+F 1 "GND" H 1800 1350 50  0000 C CNN
+F 2 "" H 1800 1500 50  0000 C CNN
+F 3 "" H 1800 1500 50  0000 C CNN
+	1    1800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 950  1800 825 
+$Comp
+L minireklame-rescue:+5V-power #PWR?
+U 1 1 5D56A4BF
+P 2500 3400
+F 0 "#PWR?" H 2500 3250 50  0001 C CNN
+F 1 "+5V" H 2500 3540 50  0000 C CNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4000 2950 4000
 Wire Bus Line
 	5375 5200 5375 7650
+Wire Bus Line
+	2650 3250 2650 5200
 $EndSCHEMATC
