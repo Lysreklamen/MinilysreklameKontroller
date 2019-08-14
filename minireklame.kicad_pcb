@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 862)
     (zones 0)
     (modules 64)
@@ -3582,11 +3582,12 @@
     )
   )
 
+  (gr_line (start 70 100) (end 170 100) (layer Edge.Cuts) (width 0.15) (tstamp 5D549F45))
+  (gr_line (start 170 50) (end 170 100) (layer Edge.Cuts) (width 0.15) (tstamp 5D549F3B))
   (gr_text "Minilysreklamekontroller\nv1.1 - UKA 2019" (at 134.879 61.552) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 70 50) (end 70 100) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 196.67 155.88) (end 96.67 155.88) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 70 50) (end 170 50) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 113.975 69.06) (end 113.975 64.415) (width 0.254) (layer F.Cu) (net 1))
