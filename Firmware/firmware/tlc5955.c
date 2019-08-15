@@ -59,9 +59,9 @@ void tlc5955_init( void )
 
 void tlc5955_start( void )
 {
-    if (spi_state > 98){
+    if (spi_state > 99){
         spi_state = 0;
-        //_delay_ms(10);
+        //_delay_ms(1);
     }
 }
 
@@ -86,6 +86,8 @@ void tlc5955_handle( void )
     } else if (spi_state == 98) {
         TLC_LATCH_PORT.OUTCLR = (1 << TLC_LATCH_PIN);
         spi_state ++;
+    } else if (spi_state == 99) {
+        spi_state ++;
     }
 }
 
@@ -94,12 +96,12 @@ void tlc5955_handle( void )
 void tlc5955_led_set(uint8_t led, uint16_t r, uint16_t g, uint16_t b)
 {
     
-    tlc_buffer[led*6 + 0] = b & 0xFF;
-    tlc_buffer[led*6 + 1] = b >> 8;
-    tlc_buffer[led*6 + 2] = g & 0xFF;
-    tlc_buffer[led*6 + 3] = g >> 8;
-    tlc_buffer[led*6 + 4] = r & 0xFF;
     tlc_buffer[led*6 + 5] = r >> 8;
+    tlc_buffer[led*6 + 4] = r & 0xFF;
+    tlc_buffer[led*6 + 3] = g >> 8;
+    tlc_buffer[led*6 + 2] = g & 0xFF;
+    tlc_buffer[led*6 + 1] = b >> 8;
+    tlc_buffer[led*6 + 0] = b & 0xFF;
 }
 
 
@@ -132,7 +134,6 @@ static void set_control( void )
     spi_clear_if();
     _delay_us(100);//?
     TLC_LATCH_PORT.OUTCLR = (1 << TLC_LATCH_PIN);
-    
 }
 
 static void spi_clear_if( void )
@@ -140,3 +141,4 @@ static void spi_clear_if( void )
     volatile uint8_t x = TLC_SPI.STATUS;
     x = TLC_SPI.DATA;
 }
+

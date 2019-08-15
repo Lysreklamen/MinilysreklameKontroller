@@ -88,9 +88,10 @@ void dmx_handle(uint32_t dt)
 void applyFrame(uint8_t frame[], uint16_t offset)
 {
 	//Apply the new DMX- frame:
-	#define FRAME(channel) (frame[(offset+(channel))] * frame[(offset+(channel))])
+	//#define FRAME(channel) ((uint16_t)frame[(offset+(channel))] * (uint16_t)frame[(offset+(channel))])
+	#define FRAME(channel) (((uint16_t)(frame[(offset+(channel))])) * (uint16_t)256)
 	for (uint8_t i = 0; i < MAX_LEDS; i++){
-        LED_SET(i,FRAME(i*3), FRAME(i*3+1), FRAME(i*3+2));
+        LED_SET(i,FRAME((i*3)), FRAME((i*3)+1), FRAME((i*3)+2));
     }
     LEDS_UPDATE();
 }
