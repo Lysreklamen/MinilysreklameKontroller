@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:minireklame-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,10 +18,10 @@ L tlc5955:TLC5955 U3
 U 1 1 58CAEDE5
 P 7100 3650
 F 0 "U3" H 7100 3750 60  0000 C CNN
-F 1 "TLC5955" H 7100 3550 60  0000 C CNN
+F 1 "TLC5955RTQ" H 7100 3550 60  0000 C CNN
 F 2 "tlc5955:QFP_56_8x8mm_0.5mm_pitch" H 6700 3125 60  0001 C CNN
 F 3 "" H 7100 3650 60  0000 C CNN
-F 4 "TLC5955DCA" H 7100 3650 60  0001 C CNN "manf#"
+F 4 "TLC5955RTQ" H 7100 3650 60  0001 C CNN "manf#"
 	1    7100 3650
 	1    0    0    -1  
 $EndComp
@@ -1078,7 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4425 1100 3900
 Connection ~ 1100 3900
-Text Notes 475  4800 0    60   ~ 0
+Text Notes 550  5100 0    60   ~ 0
 junction close to SP3483
 $Comp
 L minireklame-rescue:C-Device C13
@@ -1999,6 +1998,7 @@ F 1 "SP3483-EN-L" H 1800 4250 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1700 3450 50  0001 C CIN
 F 3 "" H 1700 3950 50  0000 C CNN
 F 4 "SP3483EN-L" H 1700 3950 60  0001 C CNN "manf#"
+F 5 "Changed to pin compatible MAX3483ECSA+T" H 2050 3050 50  0000 C CNN "note"
 	1    1700 3950
 	-1   0    0    -1  
 $EndComp

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# minireklame-rescue:+3.3V-power
+# minireklame-rescue_+3.3V-power
 #
-DEF minireklame-rescue:+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF minireklame-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "minireklame-rescue:+3.3V-power" 0 140 50 H V C CNN
+F1 "minireklame-rescue_+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:+5V-power
+# minireklame-rescue_+5V-power
 #
-DEF minireklame-rescue:+5V-power #PWR 0 0 Y Y 1 F P
+DEF minireklame-rescue_+5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "minireklame-rescue:+5V-power" 0 140 50 H V C CNN
+F1 "minireklame-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:ATXMEGA64A4U-A
+# minireklame-rescue_ATXMEGA64A4U-A
 #
-DEF minireklame-rescue:ATXMEGA64A4U-A IC 0 40 Y Y 1 F N
+DEF minireklame-rescue_ATXMEGA64A4U-A IC 0 40 Y Y 1 F N
 F0 "IC" -750 1200 50 H V L BNN
-F1 "minireklame-rescue:ATXMEGA64A4U-A" 350 -1250 50 H V L BNN
+F1 "minireklame-rescue_ATXMEGA64A4U-A" 350 -1250 50 H V L BNN
 F2 "TQFP44" 0 0 50 H V C CIN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -87,11 +87,11 @@ X VCC 9 -100 1300 150 D 40 35 1 1 W
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:AVR-PUDI-6
+# minireklame-rescue_AVR-PUDI-6
 #
-DEF minireklame-rescue:AVR-PUDI-6 CON 0 40 Y Y 1 F N
+DEF minireklame-rescue_AVR-PUDI-6 CON 0 40 Y Y 1 F N
 F0 "CON" -80 240 50 H V C CNN
-F1 "minireklame-rescue:AVR-PUDI-6" -210 -245 50 H V L BNN
+F1 "minireklame-rescue_AVR-PUDI-6" -210 -245 50 H V L BNN
 F2 "AVR-PUDI-6" -445 35 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -115,11 +115,11 @@ X ~ 6 125 -100 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:C-Device
+# minireklame-rescue_C-Device
 #
-DEF minireklame-rescue:C-Device C 0 10 N Y 1 F N
+DEF minireklame-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "minireklame-rescue:C-Device" 25 -100 50 H V L CNN
+F1 "minireklame-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -133,11 +133,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:CONN_01X02
+# minireklame-rescue_CONN_01X02
 #
-DEF minireklame-rescue:CONN_01X02 J 0 40 Y N 1 F N
+DEF minireklame-rescue_CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "minireklame-rescue:CONN_01X02" 100 0 50 V V C CNN
+F1 "minireklame-rescue_CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +155,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:CONN_01X04
+# minireklame-rescue_CONN_01X04
 #
-DEF minireklame-rescue:CONN_01X04 J 0 40 Y N 1 F N
+DEF minireklame-rescue_CONN_01X04 J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "minireklame-rescue:CONN_01X04" 100 0 50 V V C CNN
+F1 "minireklame-rescue_CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:CP-Device
+# minireklame-rescue_CP-Device
 #
-DEF minireklame-rescue:CP-Device C 0 10 N Y 1 F N
+DEF minireklame-rescue_CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "minireklame-rescue:CP-Device" 25 -100 50 H V L CNN
+F1 "minireklame-rescue_CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -201,11 +201,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:Crystal_GND24-Device
+# minireklame-rescue_Crystal_GND24-Device
 #
-DEF minireklame-rescue:Crystal_GND24-Device Y 0 40 Y N 1 F N
+DEF minireklame-rescue_Crystal_GND24-Device Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "minireklame-rescue:Crystal_GND24-Device" 125 125 50 H V L CNN
+F1 "minireklame-rescue_Crystal_GND24-Device" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:GND-power
+# minireklame-rescue_GND-power
 #
-DEF minireklame-rescue:GND-power #PWR 0 0 Y Y 1 F P
+DEF minireklame-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "minireklame-rescue:GND-power" 0 -150 50 H V C CNN
+F1 "minireklame-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -241,11 +241,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:LD1117S33TR
+# minireklame-rescue_LD1117S33TR
 #
-DEF minireklame-rescue:LD1117S33TR U 0 30 Y Y 1 F N
+DEF minireklame-rescue_LD1117S33TR U 0 30 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "minireklame-rescue:LD1117S33TR" 0 200 50 H V C CNN
+F1 "minireklame-rescue_LD1117S33TR" 0 200 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:SOT-223" 0 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -259,11 +259,11 @@ X VI 3 -400 50 150 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:LED-Device
+# minireklame-rescue_LED-Device
 #
-DEF minireklame-rescue:LED-Device D 0 40 N N 1 F N
+DEF minireklame-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "minireklame-rescue:LED-Device" 0 -100 50 H V C CNN
+F1 "minireklame-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -282,11 +282,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:Phoenix_508_2pos
+# minireklame-rescue_Phoenix_508_2pos
 #
-DEF minireklame-rescue:Phoenix_508_2pos U 0 40 Y Y 1 F N
+DEF minireklame-rescue_Phoenix_508_2pos U 0 40 Y Y 1 F N
 F0 "U" -550 0 60 V V C CNN
-F1 "minireklame-rescue:Phoenix_508_2pos" -550 0 60 V V C CNN
+F1 "minireklame-rescue_Phoenix_508_2pos" -550 0 60 V V C CNN
 F2 "" -550 0 60 V I C CNN
 F3 "" -550 0 60 V I C CNN
 DRAW
@@ -298,11 +298,11 @@ X GND 2 400 -200 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# minireklame-rescue:R-Device
+# minireklame-rescue_R-Device
 #
-DEF minireklame-rescue:R-Device R 0 0 N Y 1 F N
+DEF minireklame-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "minireklame-rescue:R-Device" 0 0 50 V V C CNN
+F1 "minireklame-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -315,11 +315,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sp3483:SP3483-EN-L
+# sp3483_SP3483-EN-L
 #
-DEF sp3483:SP3483-EN-L U 0 40 Y Y 1 F N
+DEF sp3483_SP3483-EN-L U 0 40 Y Y 1 F N
 F0 "U" -400 300 50 H V L CNN
-F1 "sp3483:SP3483-EN-L" 100 300 50 H V L CNN
+F1 "sp3483_SP3483-EN-L" 100 300 50 H V L CNN
 F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 50 500 50 H I C CIN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -338,11 +338,11 @@ X VCC 8 0 350 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# tlc5955:TLC5955
+# tlc5955_TLC5955
 #
-DEF tlc5955:TLC5955 U 0 40 Y Y 1 F N
+DEF tlc5955_TLC5955 U 0 40 Y Y 1 F N
 F0 "U" 0 100 60 H V C CNN
-F1 "tlc5955:TLC5955" 0 -100 60 H V C CNN
+F1 "tlc5955_TLC5955" 0 -100 60 H V C CNN
 F2 "QFN-56" 0 -200 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
